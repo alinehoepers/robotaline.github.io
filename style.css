@@ -3,9 +3,25 @@ property: value;
 
 }*/
 
+body{
+    background-image: url(https://assets.awwwards.com/awards/images/2015/04/pattern.jpg);
+    background-size: cover;
+
+}
 h2{
-    color: red;
+    color: #58782E;
+    text-align: center;
+    border: 5px dashed#405525;
+    cursor:pointer;
+
+
+}
+li{
+    list-style: none;
+    display:inline-block;
+
 }
 p {
-    color:pink
+    color: #000000;
+    text-align: center;
 }

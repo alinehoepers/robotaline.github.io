@@ -7,7 +7,7 @@
     <body>
         <!--Formulário de registro-->
         <header>
-            <h1>Register</h1>
+            <h2>Register</h2>
         </header>
         <nav>
             <a href="www.google.com.br"></a>
@@ -17,22 +17,15 @@
         </footer>
         <div>
         <form method="GET" action="action.php">
-            <span>First name:</span><input type="text" name ="firstname"><br>
-            Last name: <input type="text" name="lastname"><br>
-            Email:<input type="email" required name="email"><br>
-            Password:<input type="password" name="password" min="5"><br>
-            Birthday:<input type ="date" name="birthday"><br>
-            Gender:<br>
+           <li> <span>First name:</span><input type="text" name ="firstname"><br></li>
+            <li>Last name: <input type="text" name="lastname"><br></li>
+            <li>Email:<input type="email" required name="email"><br></li>
+           <li> Password:<input type="password" name="password" min="5"><br></li>
+            <li>Birthday:<input type ="date" name="birthday"><br></li>
+           <li> Gender:<br></li>
             <input type="radio" name="gender" value="female" >Female<br>
             <input type="radio" name="gender" value="other" >Other<br>
             <input type ="radio" name="gender"value ="male">Male<br>
-            Cars: <br>
-            <select name="cars">
-                <option value="volvo" name="volvo"> Volvo <br></option>
-                <option value="Audi" name="audi"> Audi <br></option>
-                
-
-            </select>
             <input type ="submit" value ="Register!">
             <input type = "reset">
         </form>
