@@ -4,24 +4,34 @@ property: value;
 }*/
 
 body{
-    background-image: url(https://assets.awwwards.com/awards/images/2015/04/pattern.jpg);
-    background-size: cover;
-
+background-image: url(https://assets.awwwards.com/awards/images/2015/04/pattern.jpg);
+background-size: cover;
 }
+
 h2{
     color: #58782E;
     text-align: center;
     border: 5px dashed#405525;
     cursor:pointer;
+    font-family: 'Oswald', sans-serif;
+}
+    
 
+    li{
+        list-style: none;
+        display:inline-block;
+    font-family: 'Oswald', sans-serif;
 
 }
-li{
-    list-style: none;
-    display:inline-block;
-
+img{
+    float:left;
 }
-p {
+footer{
+    clear:both;
+    text-align:center;
+}
+p,h1 {
     color: #000000;
     text-align: center;
+    font-family: 'Oswald', sans-serif;
 }
